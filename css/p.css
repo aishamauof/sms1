@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px ;
+}
+
+
+header {
+    padding: 5px;
+    text-align: left;
+}
+.nav  {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.post {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: gold;
+    border-radius: 20px;
+    width: 800px;
+    text-align: center;
+    box-shadow: yellow 8px 8px 8px;
+    text-shadow: rgb(26, 26, 19) 1px 1px 1px;
+}
+
+.post h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.post p {
+    font-size: 30px;
+}
+
+.post p strong {
+    font-weight: 900;
+}
+
+.post form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.post textarea {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: gold;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.post button {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: yellow 3px 3px 3px 3px;
+    text-shadow:rgb(204, 204, 76) 10px 10px 10px;
+    font-size: 20px;
+}
+
+.comment {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: gold;
+    border-radius: 20px;
+    width: 600px;
+    text-align: center;
+    box-shadow: yellow 8px 8px 8px;
+    text-shadow: rgb(15, 15, 10) 1px 1px 1px;
+}
+
+.comment p {
+    font-size: 25px;
+}
+
+.comment form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.comment textarea {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(255, 217, 1);
+    width: 300px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.comment button {
+    background-color: rgb(223, 168, 28);
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: rgb(255, 217, 0) 3px 3px 3px 3px;
+    text-shadow: yellow 10px 10px 10px;
+    font-size: 15px;
+}
